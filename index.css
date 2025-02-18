@@ -62,14 +62,14 @@ p{
   
   & img{
     height: 60%;
-    background-color: red;
+    background-color: lightgrey;
     width: 80%;
     flex-grow: 1;
     margin: 0 auto calc(15px + 0.5vw) auto;
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   header {
     text-align: center;
     font-size: calc(16px + 0.5vw);
@@ -81,7 +81,7 @@ p{
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   body{
     font-size: calc(14px + 0.5vw);
   }
